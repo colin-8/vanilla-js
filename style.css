@@ -1,0 +1,29 @@
+* {
+    font-family:Arial, Helvetica, sans-serif
+}
+.card-parent {
+    display: grid;
+    place-items: center;
+    background-color: rgb(241, 242, 242);
+    margin-bottom: 1em;
+}
+.card-clamp {
+    width: clamp(20ch, 80%, 80ch);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 1em;
+    padding: 1rem;
+}
+.visual {
+    /* height: 125px; */
+    width: 100%;
+}
+a {
+    font-family: 'Courier New', Courier, monospace;
+}
+aside {
+    background-color: beige;
+    width: 70%;
+    padding: 1em;
+}
