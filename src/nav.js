@@ -1,4 +1,3 @@
-
 class ExpandingList extends HTMLUListElement {
     constructor() {
         self = super();
@@ -31,4 +30,9 @@ class ExpandingList extends HTMLUListElement {
         }
     };
 }
-customElements.define('expanding-list', ExpandingList, { extends: 'ul' })
+class NavContent {
+
+}
+
+customElements.define('nav-content', NavContent);
+customElements.define('expanding-list', ExpandingList, { extends: 'ul' });
